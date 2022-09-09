@@ -31,7 +31,7 @@ li{
     
 }
 
-.container{
+#navi  {
     position: relative;
     text-align: center;
     font-size: 150px;
@@ -39,12 +39,11 @@ li{
     -webkit-text-stroke:2px black;
     -font-family:arial;color:rgb(250,243,21);
     text-shadow: 2px 2px black;
-    /* border-width: 5px;
-    border-style: solid;
-    border-color: black; */
+}   
+    
     
    
-}
+
 
 .centered{
     position: absolute;
@@ -92,11 +91,14 @@ h1{
     background-color: rgb(217, 199, 235);
 }
 
+
     
 
-.flex-container{
+#category {
     
     display: flex;
+    height: 15%;
+    width: 100%;
     flex:1;
     justify-content: space-between;
     align-items: center;
@@ -106,12 +108,33 @@ h1{
     
 }
 
-.item{
+.flex-container .item{
     flex:auto;
     margin: 50px;
+    text-align: center;
     
     
 }
+#pictures{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    flex:1;
+    justify-content: space-between;
+    row-gap: 30px;
+    align-items: center;
+    margin:auto;
+    justify-content: center;
+    position: absolute;
+    margin: 30px;
+   
+
+}
+
+    
+
+
+
 
 
 

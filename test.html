@@ -2,36 +2,38 @@
 <html lang="en">
 <head>
    <!-- <link rel="stylesheet" href="test.css" this is when you want to bring in css that you created in css file> -->
-    <link rel="stylesheet" typ="txt/css" href="styles/test.css">
+    <link rel="stylesheet" typ="txt/css" href="styles/test.css"href="styles/test.css" >
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>"About Konst"</title>
 </head>
-<body style="background-color:rgb(235, 214, 202)">
-<center>
-    <div class= "container" id="navi">
+<body style="background-color:rgb(244, 237, 233)">
 
-      <img src="Untitled_Artwork.jpg" width="1000px", height="500px"> 
+    <div class= "container" id="mainpicture">
+
+      <img src="Untitled_Artwork.jpg" id="aboutpix"> 
     
        <div class="centered">ABOUT KONST</div>
     </div>
    
-</center>
-<nav>
-    <ul>
+
+  <nav id="navbar">
+      <ul>
     
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact </a></li>
-    </ul>
+      </ul>
+    </nav>
 
-
-</nav>
-<div>
-    <div><a href="index.html/btn.html"><button type="button" id="btn1">REGISTER</button></a></div>
-    <div><button type="button" id="btn2">SIGN IN</button></div>
-</div>
+   
+   
+   <div>
+     <div><a href="btn.html"><button type="button" id="btn1">REGISTER</a></div>
+        <br>
+     <div><a href="btn.html"><button type="button" id="btn2">SIGN IN</a></div>
+   </div>
 
    
 
@@ -45,9 +47,9 @@
 
 
 
-<div><p><em>WELCOME TO STOCKHOLMS ART NEWSPAPER</em></WELCOME></p></div>
+  <div id="welcome"><p><em>WELCOME TO STOCKHOLMS ART NEWSPAPER</em></p></div>
 
-<div><article>
+ <div><article>
  <div><p><em>Find out about all art events happening in Stockholm.
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
     ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
@@ -66,9 +68,9 @@
     <div class="flex-container" id="category">
     
        
-            <div class="item"><h2><a href="project.html/music.html ">MUSIC</a></h2></div>
-            <div class="item"><h2><a href="project.html/fashion.html">FASHION</a></h2></div>
-            <div class="item"><h2><a href="project.html/art.html">ART</a></h2></div>
+            <div class="item"><h2><a href="index.html">MUSIC</a></h2></div>
+            <div class="item"><h2><a href="index.html">FASHION</a></h2></div>
+            <div class="item"><h2><a href="index.html">ART</a></h2></div>
         
     
    
@@ -76,13 +78,13 @@
    
     </div>
    
-   <!-- <div class="flex-container" id="pictures">
+   <div class="flex-container" id="pictures">
       
-            <div class="pix"><a href="project.html/music.html"></a><img src="fast.jpeg" width="250px", height="250px"> </div>
-            <div class="pix"><a href="project.html/fashion.html"></a><img src="fashionweek.jpeg" width="250px", height="250px"> </div>
-            <div class="pix"><a href="project.html/art.html"></a><img src="art.jpeg" width="250px", height="250px"> </div>
+            <div class="pix"><a href="index.html"></a><img src="fast.jpeg" width="250px", height="250px"> </div>
+            <div class="pix"><a href="index.html"></a><img src="fashionweek.jpeg" width="250px", height="250px"> </div>
+            <div class="pix"><a href="index.html"></a><img src="art.jpeg" width="250px", height="250px"> </div>
       
-    </div> -->
+    </div> 
 
 
 
@@ -91,15 +93,15 @@
 
     
    
-</article></div>
+ </article></div>
   <footer>
-        <form>
-           <div>
+        <form id="com">
+           <div class="flex-container" id="comment">
             
-               <div><textarea id="comments" name="comments" placeholder="Write a comment..."> </textarea></div> 
+               <textarea id="comments" name="comments" placeholder="Write a comment..."> </textarea>
       
-               <input type="submit" value="send comment">
-      
+               <input type="submit" value="send comment" id="send">
+               <p id="written"></p>
             </div>  
        
         </form>

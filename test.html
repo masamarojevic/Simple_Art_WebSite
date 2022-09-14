@@ -3,7 +3,7 @@
 <head>
    <!-- <link rel="stylesheet" href="test.css" this is when you want to bring in css that you created in css file> -->
     <link rel="stylesheet" typ="txt/css" href="styles/test.css"href="styles/test.css" >
-    <script type="text/javascript" src="quiz.js"></script>
+   
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -83,6 +83,7 @@
     
    
  </article></div>
+ <script type="text/javascript" src="quiz.js"></script>
   <form id="minQuiz">
      <div class="container" id="quiz"></div>
       <div class="play"><p>Solve this quiz and win a prize!</p></div>
@@ -118,7 +119,8 @@
 
         
       
-        <input type="submit" name="submit" value="submitQuiz" onclick="myResult()">
+        
+        <button type="button" onclick="myResult()">Submit quiz</button>
         <p id="resultq"></p>
      </div>
    </form> 

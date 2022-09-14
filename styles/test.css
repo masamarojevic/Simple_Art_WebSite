@@ -10,9 +10,16 @@
     width:1000px;
     height: 500px;
     border-radius: 50%;
+    position: relative;
+    top: 50px;
+}
+.container{
+    margin: 0px;
+    padding: 0px;
 }
 
 #mainpicture  {
+    
     position: relative;
     text-align: center;  
     font-size: 150px;
@@ -23,7 +30,7 @@
 }   
 #navbar{
     background-color: #f5d9dd;
-    height: 30px;
+    height: 50px;
     font-size: large;
   
     
@@ -40,6 +47,8 @@
 ul{
     flex:1;
     text-align:right;
+    position: relative;
+    top: 13px;
 
 
 }
@@ -77,45 +86,63 @@ h1{
     background-color: rgb(217, 199, 235);
 }
 #welcome{
-    background-color: #f14a60;
-    font-weight: 400;
+    width: 80%;
+    position: relative;
+    left: 38%;
+    text-decoration: underline;
+    
+}
+#p{
+    width: 80%;
+    position: relative;
+    left: 10%;
+    background-color: bisque;
 }
 
 
     
 
 #category {
-    
+    flex:auto;
+    margin:70px;
     display: flex;
     height: 25%;
     width: 85%;
     flex:1;
-   
     align-items: center;
     margin:auto;
-    justify-content: center;
+    justify-content: space-around;
     position:relative;
     align-self: center;
    
     
 }
+a{
+    text-decoration:none;
+}
+.item3 {
+position: relative;
+right: 60px;
 
 
-
- .flex-container .item{
-    flex:auto;
-    margin: 50px;
-    
+}
+.item2{
+    position: relative;
+    right:15px;
    
+}
+
+.item1{
+    position: relative;
+    left: 43px;
     
-} 
-.flex-container .pictures{
-    flex:auto;
-    border-radius: 50%;
 }
-.img{
-    border-radius: 50%;
-}
+
+
+
+
+
+
 
 
 #pictures{
@@ -123,18 +150,23 @@ h1{
     height: 50%;
     width: 75%;
     flex:1;
-    justify-content: space-between;
-    row-gap: 20%;
+    justify-content: space-around;
+    
     align-items: center;
     margin:0 auto;
     margin-bottom: 45px; 
-    position: relative;
-    
-    
-   
+    position: relative;  
 
 }
+.pix{
+    background: #f14a60;
+    margin-left: 0%;
+}
+
+
 #btn1{
+    position: absolute;
+    bottom: 140px;
     background-color: bisque;
     display:inline-block;
     list-style: none;
@@ -166,6 +198,9 @@ h1{
     width: 100%;
 }
 #btn2{
+    position: absolute;
+    bottom: 140px;
+   left:10%;
     background-color:bisque;
     display: inline-block;
     list-style: none; 
@@ -194,6 +229,10 @@ h1{
 #btn2 a:hover:after{
     width: 100%;
 }
+#listq{
+    position: relative;
+    right: 65%;
+}
 footer{
     background-color: beige;
      
@@ -204,17 +243,38 @@ footer{
     left: 40%; 
 }
 #send{
-    position:relative ;
-    left: 38px;
+    position:relative;
+    top:25px;
+    right:90px;
 }
-
-
-
-
-
-
-
-
-
-
-    
+#comments{
+    height: 35px;
+    position: relative;
+    left:55px
+}
+#com{
+    height: 100px;
+}
+.question{
+	font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label{
+  display: block;
+}
+#submit{
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: #279;
+	color: #fff;
+	border: 0px;
+	border-radius: 3px;
+	padding: 20px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+#submit:hover{
+	background-color: #38a;
+}

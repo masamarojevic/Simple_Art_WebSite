@@ -29,7 +29,7 @@
     text-shadow: 2px 2px black;
 }   
 #navbar{
-    background-color: #f5d9dd;
+    background-color: rgb(217, 199, 235);
     height: 50px;
     font-size: large;
   
@@ -258,4 +258,31 @@ footer{
 #minquiz{
     position: relative;
     right: 30px;
+}
+#rico{
+    position: relative;
+    border-radius: 50%;
+    left:20%;
+    top: 150px;
+}
+#museum{
+    position: relative;
+    left: 40%;
+    top: 150px;
+    border-radius: 50%;
+}
+#ricolink{
+    position: relative;
+    right: 680px;
+    top: 120px;
+}
+.ricop{
+    position: relative;
+    left: 220px;
+    top: 50px;
+}
+.modernap{
+    position: relative;
+    left:55%;
+    top:50px;
 }

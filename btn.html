@@ -2,15 +2,16 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" typ="txt/css" href="styles/test.css">
-    <script type="text/javascript" src="first.js">
-
-    </script>
+    <!--connecting html to javascript for printout-->
+    <script type="text/javascript" src="btn.js"></script>
+    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>"REGISTER"</title>
 </head>
-<body style="background-color:rgb(235, 214, 202)">
+<body style="background-color:rgb(235, 214, 202)" id="bodyb">
 
 
     <form id="name">
@@ -19,50 +20,56 @@
      <input type="text" id="username" name="username" placeholder="username" required>
  
      <p id="getanswer"></p>
-
-    
-    
     
     </form>
      
+    <div>
 
-     <label for="email">enter email:</label>
-     <input type="email" id="email" name="email" placeholder="email" required>
-     <p id="getemail"></p>
+      <label for="email" id="enteremail">enter email:</label>
+      <input type="email" id="email" name="email" placeholder="email" required>
+
+    </div>
+
      <br><br>
 
-
-     <label for="password">enter password:</label>
-     <input type="password" id="password" name="password" placeholder="password" required>
-     <label for="password">repeat password:</label>
-     <input type="password" id="reppassword" name="reppassword" placeholder="password" required>
- 
+    <div>
+     <label for="password" class="pass">enter password:</label>
+     <input type="password" class="pass" name="password" placeholder="password" required>
+     <label for="password" class="pass">repeat password:</label>
+     <input type="password" class="pass" name="reppassword" placeholder="password" required>
+    </div>
    
-     
-   
-     
-     <p>Select your age:</p>
-     
+    <div class="alder">
+        <p>Select your age:</p>
      <input type="radio" name="age" value="0-25" id="option-1">
      <label for="option-1">0-25</label>
      <input type="radio" name="age" value="26-50" id="option-2">
      <label for="option-2">26-50</label>
      <input type="radio" name="age" value="51+" id="option-3">
      <label for="option-3">51+</label>
+
+    </div>
  
      <br><br>
-     <label for="question">Choose a security question</label>
-     <select name="question" id="question">
-         <option value="q1"> What is your favorite colour?</option>
-         <option value="q2">What is your favorite food?</option>
-         <option value="q3">What is your pet name?</option>
-     </select>
+
+     <div class="q">
+
+            <label for="question">Choose a security question</label>
+          <select name="question" id="question">
+            <option value="q1"> What is your favorite colour?</option>
+            <option value="q2">What is your favorite food?</option>
+            <option value="q3">What is your pet name?</option>
+          </select>
+     </div>
      <br><br>
-     <label for="bio">Your biography</label><br>
-     <br>
-     <textarea name="bio" id="bio" cols="30" rows="10" placeholder="start typing..."></textarea>
- 
-     <input type="submit" value="Submit the form">
+
+     <div class="b">
+
+        <label for="bio">Your biography</label><br>
+        <br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="start typing..."></textarea>
+        <input type="submit" value="Submit the form">
+     </div>
  
 </body>
 </html>

@@ -1,10 +1,13 @@
-
+/* css for test.html*/
 .img{
+    
     margin: 0px;
     padding:0px;
     
 }
+
 #aboutpix{
+
     margin:0px;
     padding:0px;
     width:1000px;
@@ -12,13 +15,16 @@
     border-radius: 50%;
     position: relative;
     top: 50px;
+
 }
+
 .container{
+
     margin: 0px;
     padding: 0px;
 }
 
-#mainpicture  {
+#mainpicture{
     
     position: relative;
     text-align: center;  
@@ -27,17 +33,19 @@
     font-family:fantasy;
     color:rgb(250,243,21);
     text-shadow: 2px 2px black;
-}   
+}  
+
 #navbar{
+ 
     background-color: rgb(217, 199, 235);
     height: 50px;
-    font-size: large;
-  
-    
+    font-size: large;  
+
 }
     
     
 .centered{
+
     position: absolute;
     top:50%;
     left:50%;
@@ -50,20 +58,26 @@ ul{
     position: relative;
     top: 13px;
 
-
 }
+
 ul li{
+
     display:inline-block;
     list-style: none;
     margin:0 25px;
+
 }
 ul li a{
+
    text-decoration: none;
    color: black;
    padding: 0 10px;
    position: relative;
+
 }
-ul li a::after{
+/* this after och hover are used for multiple link on different html files */
+ul li a::after{   
+
     content: '';
     width: 0%;
     height:10px;
@@ -73,19 +87,25 @@ ul li a::after{
     transform: translateX(-50%);
     bottom:-50%;
     transition:0.5s;
+
 }
+
 ul li a:hover:after{
+
     width:100%;
 
 }
 
 h1{
+
     display: inline-block;
     margin-top:5px;
     padding:10px;
     background-color: rgb(217, 199, 235);
+
 }
 #welcome{
+
     width: 80%;
     position: relative;
     left: 38%;
@@ -93,16 +113,15 @@ h1{
     
 }
 #p{
+
     width: 80%;
     position: relative;
     left: 10%;
     background-color: bisque;
 }
 
-
-    
-
 #category {
+
     flex:auto;
     margin:70px;
     display: flex;
@@ -114,44 +133,37 @@ h1{
     justify-content: space-around;
     position:relative;
     align-self: center;
-   
-    
+       
 }
-a{
-    text-decoration:none;
-}
+
 .item3 {
-position: relative;
-right: 60px;
 
+position: relative;
+right: 60px; 
 
 }
+
 .item2{
+
     position: relative;
     right:15px;
-   
+
 }
 
 .item1{
+
     position: relative;
     left: 43px;
     
 }
 
-
-
-
-
-
-
-
 #pictures{
+
     display: flex;
     height: 50%;
     width: 75%;
     flex:1;
-    justify-content: space-around;
-    
+    justify-content: space-around; 
     align-items: center;
     margin:0 auto;
     margin-bottom: 45px; 
@@ -159,12 +171,14 @@ right: 60px;
 
 }
 .pix{
+    
     background: #f14a60;
     margin-left: 0%;
 }
 
 
 #btn1{
+
     position: absolute;
     bottom: 140px;
     background-color: bisque;
@@ -173,15 +187,18 @@ right: 60px;
     margin: 0 25px;
     border:none;
     
-
 }
+
 #btn1 a{
+
     text-decoration: none;
     padding: 0 10px;
     position: relative;
 
 }
+
 #btn1 a::after{
+
     content: '';
     width: 0%;
     height:5px;
@@ -194,10 +211,14 @@ right: 60px;
     transition:0.5s;
 
 }
+
 #btn1 a:hover:after{
+
     width: 100%;
 }
+
 #btn2{
+
     position: absolute;
     bottom: 140px;
    left:10%;
@@ -210,11 +231,14 @@ right: 60px;
     
 }
 #btn2 a{
+
     text-decoration: none;
     padding: 0 10px;
     position: relative;
 }
+
 #btn2 a::after{
+
     content: '';
     width: 0%;
     height: 5px;
@@ -225,64 +249,279 @@ right: 60px;
     transform: translateX(-50%);
     bottom:-50%;
     transition:0.5s;
+
 }
+
 #btn2 a:hover:after{
+
     width: 100%;
 }
+
 #listq{
+
     position: relative;
     right: 65%;
 }
+
 footer{
+
     background-color: beige;
-     
-    
+        
 }
+
  #comment{
+
     position: relative;
     left: 40%; 
+    top:20%;
 }
+
 #send{
+
     position:relative;
-    top:25px;
-    right:90px;
+    top:50px;
+    right:60px;
+
 }
 #comments{
+
     height: 35px;
     position: relative;
-    left:55px
+    top:30px;
+    left:80px;
+   
 }
 #com{
-    height: 100px;
+
+    height: 150px;
+
 }
+
+#written{
+
+    position: relative;
+    bottom: 60px;
+    left:90px;
+   
+}
+
+#koment{
+
+    position: relative;
+    top: 35px;
+    right:250px;
+
+}
+
 #minquiz{
     position: relative;
     right: 30px;
 }
+
+#minQuiz{
+
+    position: relative;
+    left:37%;
+}
+
+button:active{
+    
+    background-color: aquamarine;
+}
+
+
+/* this is css for art.html*/
 #rico{
+
     position: relative;
     border-radius: 50%;
     left:20%;
-    top: 150px;
+    top: 155px;
+
 }
 #museum{
+
     position: relative;
     left: 40%;
-    top: 150px;
+    top: 154px;
     border-radius: 50%;
+
 }
 #ricolink{
+
     position: relative;
     right: 680px;
     top: 120px;
+
 }
 .ricop{
+
     position: relative;
-    left: 220px;
-    top: 50px;
+    left: 260px;
+    top: 200px;
+
+}
+#museetlink{
+
+    position: relative;
+    right:350px;
+    top: 123px;
+
 }
 .modernap{
+
     position: relative;
     left:55%;
+    top:108px;
+
+}
+
+
+/*this is css for btn.html*/
+form{
+
+    position: absolute;
+    left:30%;
+
+}
+
+#email{
+
+    position: relative;
+    left:450px;
+    top: 50px;
+
+}
+
+#enteremail{
+
+    position: relative;
+    left:452px;
     top:50px;
+
+}
+.pass{
+
+    position: relative;
+    left:425px;
+    top:50px;
+
+}
+.alder{
+
+    position: relative;
+    left:420px;
+    top:70px;
+
+}
+.q{
+
+    position: relative;
+    left:400px;
+    top:70px;
+
+}
+.b{
+
+    position: relative;
+    left:400px;
+    top:70px;
+
+}
+
+#bodyb{
+
+    position: relative;
+    left:100px;
+    top: 100px;
+
+}
+#getanswer{
+    position: relative;
+    bottom:60px;
+}
+/*css for music.html*/
+table, th, td {
+
+  border: 1px solid black;
+ 
+}
+
+#fastpix{
+
+    position: relative;
+    left:250px;
+    border-radius: 50%;
+    top:60px;
+
+}
+#fastlink{
+
+    position: relative;
+    right: 730px;
+    top:40px;
+
+}
+#glespix{
+
+    position: relative;
+    left:600px;
+    border-radius: 50%;
+    top:57px;
+
+}
+#glesbygdn{
+
+    position: relative;
+    right:320px;
+    top:40px;
+
+}
+#fastcal{
+
+    position: relative;
+    left:300px;
+    top:100px;
+    background-color: bisque;
+}
+
+#glescal{
+
+    position: relative;
+    left:915px;
+    background-color: bisque;
+
+}
+/* css for fashion html*/
+#fashionlink{
+    position:relative;
+    top:80px;
+    right:600px;
+}
+#ricoF{
+    position: relative;
+    top:110px;
+    border-radius: 50%;
+    left:270px;
+}
+.fashion1{
+    position: relative;
+    top:150px;
+    left:300px;
+}
+#sthmllink{
+    position: relative;
+    top:80px;
+    right:300px;
+}
+#fash{
+    position: relative;
+    border-radius: 50%;
+    left:550px;
+    top:110px;
+}
+.fashion2{
+    position: relative;
+    top:60px;
+    left:800px;
 }

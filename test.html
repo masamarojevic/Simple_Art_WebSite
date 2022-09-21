@@ -10,7 +10,7 @@
     <title>"About Konst"</title>
 </head>
 <body style="background-color:rgb(255, 255, 255)">
-
+   <!--a container that contains the main picture and the text on it -->
     <div class= "container" id="mainpicture">
 
       <img src="styles/images/Untitled_Artwork.jpg" id="aboutpix"> 
@@ -18,7 +18,7 @@
        <div class="centered">ABOUT KONST</div>
     </div>
    
-
+  <!-- navigation bar-->
   <nav id="navbar">
       <ul>
     
@@ -53,93 +53,88 @@
    
 
 
-
+   <!--flex container with text links-->
     <div class="flex-container" id="category">
-    
-       
+        
             <div class="item1"><h2><a href="music.html">MUSIC</a></h2></div>
             <div class="item2"><h2><a href="fashion.html">FASHION</a></h2></div>
             <div class="item3"><h2><a href="art.html">ART</a></h2></div>
-        
-    
-   
-
-   
+         
     </div>
-  
-   <div class="flex-container" id="pictures">
+   <!--flex container with pictures-->
+    <div class="flex-container" id="pictures">
       
             <div class="pix"><img src="styles/images/fast.jpeg" width="250px", height="250px"></div>
             <div class="pix"><img src="styles/images/fashionweek.jpeg" width="250px", height="250px"></div>
             <div class="pix"><img src="styles/images/art.jpeg" width="250px", height="250px"></div>
       
-    </div> 
+     </div> 
 
 
 
 
 
-
-    
-   
  </article></div>
- <script type="text/javascript" src="quiz.js"></script>
-  <form id="minQuiz">
+   <!--connecting html quiz to javascript/function -->
+   <script type="text/javascript" src="quiz.js"></script>
+   
+   <form id="minQuiz">
+
      <div class="container" id="quiz"></div>
       <div class="play"><p>Solve this quiz and win a prize!</p></div>
      
       
        
             <p id="firstq">1. Which year did Moderna Museet open for the first time? </p>
-            <input type="radio" name="moderna">1979
+            <input type="radio" name="moderna" value="1979">1979
            
-            <input type="radio" name="moderna" id="correct1">1958
+            <input type="radio" name="moderna" value="1958">1958
             
-            <input type="radio" name="moderna">2003
+            <input type="radio" name="moderna" value="2003">2003
            
 
              <p id="secondq">2. Which artist has suffered an illness that made him cut his ear off?</p>
 
-            <input type="radio" name="artist" id="correct2">Vincent Van Gogh 
+            <input type="radio" name="artist" value="Vincent">Vincent Van Gogh 
             
-            <input type="radio" name="artist">Claude Monet
+            <input type="radio" name="artist" value="Claude">Claude Monet
             
-            <input type="radio" name="artist">Ludwig van Beethoven
+            <input type="radio" name="artist" value="Ludwig">Ludwig van Beethoven
            
 
             <p id="thirdq">3. Which fashion designer was murdered in 1997?</p>
 
-            <input type="radio" name="fashion" id="correct3">Gianni Versace 
+            <input type="radio" name="fashion" value="Gianni">Gianni Versace 
            
-            <input type="radio" name="fashion">Karl Lagerfeld 
+            <input type="radio" name="fashion" value="Karl">Karl Lagerfeld 
             
-            <input type="radio" name="fashion">Alexander McQueen 
+            <input type="radio" name="fashion" value="Alexander">Alexander McQueen 
            
 
-
-        
-      
-        
-        <button type="button" onclick="myResult()">Submit quiz</button>
-        <p id="resultq"></p>
-     </div>
+           <button type="button" onclick="myResult()" id="koment">Submit quiz</button>
+           <p id="resultq"></p>
+     
    </form> 
+
+   <!--connecting html comment section to javascript/function-->
+   <script type="text/javascript" src="first.js"></script>
    
-
-  <footer>
+   <footer>
         
-
 
         <form id="com">
+            <!--flex container for the comment section-->
            <div class="flex-container" id="comment">
             
                <textarea id="comments" name="comments" placeholder="Write a comment..."> </textarea>
       
                <input type="submit" value="send comment" id="send">
+
                <p id="written"></p>
             </div>  
        
         </form>
+
    </footer>
 
 
